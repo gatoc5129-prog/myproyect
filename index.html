@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jardín de Niños Kantuniikin</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#A9E1F7;
+}
+
+/* =========================
+   BANNER PRINCIPAL
+========================= */
+
+.banner{
+background:white;
+padding:25px;
+text-align:center;
+}
+
+.banner img{
+width:85%;
+max-width:1200px;
+height:380px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+/* =========================
+   MENU
+========================= */
+
+.menu{
+background:#E6BF5A;
+padding:18px;
+text-align:center;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.menu a{
+display:inline-block;
+background:#7B2CBF;
+color:white;
+text-decoration:none;
+padding:15px 25px;
+margin:8px;
+border-radius:12px;
+font-weight:bold;
+transition:.3s;
+}
+
+.menu a:hover{
+background:white;
+color:#7B2CBF;
+transform:translateY(-3px);
+}
+
+/* =========================
+   BIENVENIDA
+========================= */
+
+.bienvenida{
+background:white;
+width:90%;
+max-width:1200px;
+margin:40px auto;
+padding:50px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.bienvenida h1{
+color:#7B2CBF;
+font-size:50px;
+margin-bottom:20px;
+}
+
+.bienvenida p{
+font-size:24px;
+line-height:1.8;
+color:#333;
+}
+
+/* =========================
+   TARJETAS
+========================= */
+
+.titulo{
+text-align:center;
+font-size:45px;
+color:#7B2CBF;
+margin:50px 0 30px;
+}
+
+.tarjetas{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+padding:20px;
+}
+
+.card{
+background:white;
+width:320px;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card .icono{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.card h2{
+color:#7B2CBF;
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+}
+
+/* =========================
+   GALERIA
+========================= */
+
+.galeria{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+padding:30px;
+}
+
+.galeria img{
+width:320px;
+height:230px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.galeria img:hover{
+transform:scale(1.05);
+}
+
+/* =========================
+   FRASE
+========================= */
+
+.frase{
+background:#7AC143;
+color:white;
+text-align:center;
+padding:50px 20px;
+margin-top:40px;
+}
+
+.frase h2{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.frase p{
+font-size:22px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+background:#7B2CBF;
+color:white;
+text-align:center;
+padding:25px;
+font-size:18px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:900px){
+
+.banner img{
+height:auto;
+width:95%;
+}
+
+.menu a{
+display:block;
+margin:10px auto;
+width:250px;
+}
+
+.bienvenida h1{
+font-size:35px;
+}
+
+.bienvenida p{
+font-size:18px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- =========================
+     BANNER
+========================= -->
+
+<section class="banner">
+
+<img src="fotos/90.png" alt="Jardín de Niños Kantuniikin">
+
+</section>
+
+<!-- =========================
+     MENU
+========================= -->
+
+<div class="menu">
+
+<a href="paginas/inscripcion.html">INSCRIPCIONES</a>
+
+<a href="paginas/docentes.html">DOCENTES</a>
+
+<a href="paginas/salones.html">SALONES</a>
+
+<a href="paginas/actividades.html">ACTIVIDADES</a>
+
+<a href="paginas/contacto.html">CONTACTO</a>
+
+</div>
+
+<!-- =========================
+     BIENVENIDA
+========================= -->
+
+<section class="bienvenida">
+
+<h1>Bienvenidos al Jardín de Niños Kantuniikin</h1>
+
+<p>
+Brindamos un ambiente seguro, divertido y educativo donde los niños desarrollan sus habilidades, creatividad y valores mientras disfrutan cada día de aprendizaje.
+</p>
+
+</section>
+
+<!-- =========================
+     TARJETAS
+========================= -->
+
+<h2 class="titulo">¿Por Qué Elegirnos?</h2>
+
+<div class="tarjetas">
+
+<div class="card">
+<div class="icono">👩‍🏫</div>
+<h2>Docentes</h2>
+<p>Personal capacitado y comprometido con la educación de cada niño.</p>
+</div>
+
+<div class="card">
+<div class="icono">🏫</div>
+<h2>Instalaciones</h2>
+<p>Espacios seguros, cómodos y adecuados para el aprendizaje.</p>
+</div>
+
+<div class="card">
+<div class="icono">🎨</div>
+<h2>Actividades</h2>
+<p>Juegos, eventos y experiencias que fortalecen el desarrollo integral.</p>
+</div>
+
+</div>
+
+<!-- =========================
+     GALERIA
+========================= -->
+
+<h2 class="titulo">Galería Destacada</h2>
+
+<div class="galeria">
+
+<img src="fotos/1.jpeg" alt="">
+<img src="fotos/2.jpg" alt="">
+<img src="fotos/3.jpg" alt="">
+
+</div>
+
+<!-- =========================
+     FRASE
+========================= -->
+
+<section class="frase">
+
+<h2>🌈 Aprender, Jugar y Crecer 🌈</h2>
+
+<p>
+Un lugar donde los niños descubren, crean y desarrollan su potencial.
+</p>
+
+</section>
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+© 2026 Jardín de Niños Kantuniikin | Todos los derechos reservados
+
+</footer>
+
+</body>
+</html>
+</html>

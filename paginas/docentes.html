@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Docentes</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#87CEEB;
+}
+
+/* Encabezado */
+header{
+    background:#E6BF5A;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.logo{
+    font-size:42px;
+    font-weight:bold;
+    color:#7B2CBF;
+}
+
+/* Título */
+h1{
+    text-align:center;
+    color:#7B2CBF;
+    font-size:50px;
+    margin:30px 0;
+}
+
+/* Galería */
+.galeria{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:35px;
+    padding:20px 40px 50px;
+}
+
+/* Tarjetas */
+.card{
+    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:380px;
+    object-fit:cover;
+    display:block;
+}
+
+.card h2{
+    text-align:center;
+    color:#7B2CBF;
+    font-size:20px;
+    padding:18px 12px 8px;
+    min-height:80px;
+}
+
+.card p{
+    text-align:center;
+    font-size:18px;
+    padding-bottom:20px;
+}
+
+/* Pie */
+footer{
+    background:#7AC143;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:18px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .logo{
+        font-size:30px;
+    }
+
+    h1{
+        font-size:35px;
+    }
+
+    .card{
+        width:90%;
+        max-width:350px;
+    }
+
+    .card img{
+        height:320px;
+    }
+}
+
+.card1 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card2 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card11 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card3 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card21 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card4 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card1111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card211 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card31 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card5 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card11111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card2111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card311 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card41 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card6 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card111111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card21111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card3111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card411 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card51 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card7 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card1111111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card211111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card31111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card4111 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card511 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card61 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card8 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card9 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card81 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card10 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card12 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card101 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card13 {    background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card1011 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+.card121 {background:white;
+    width:320px;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+    transition:.3s;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Rainbow Elementary</div>
+</header>
+
+<h1>Nuestro Personal Docente</h1>
+
+<div class="galeria">
+
+    <div class="card">
+        <img src="../fotos/67.jpeg" alt="">
+        <h2>Direc. Teresa Cauch Bass</h2>
+        <p>Educación Inicial</p>
+    </div>
+
+    
+
+    <div class="card">
+        <img src="../fotos/15.jpg" alt="">
+        <h2>Maestra Lali Astrid Pech Moo</h2>
+        <p>Educación Inicial</p>
+    </div>
+
+    <div class="card">
+        <img src="../fotos/16.jpg" alt="">
+        <h2>Maestra Ana</h2>
+        <p>Educación Inicial</p>
+    </div>
+
+    <div class="card">
+        <img src="../fotos/18.jpg" alt="">
+        <h2>Maestra Faridi Maglah</h2>
+        <p>Educación Inicial</p>
+  </div>
+
+    <div class="card">
+      <span class="card7"><span class="card61"><span class="card511"><span class="card4111"><span class="card31111"><span class="card211111"><span class="card1111111"><img src="../fotos/19.jpg" alt="" width="288" height="302"></span></span></span></span></span></span></span>
+      <h2>Maestra Jessica Venegas Alcocer</h2>
+        <p>Educación Inicial</p>
+  </div>
+
+  <div class="card">
+        <img src="../fotos/20.jpg" alt="">
+        <h2>Maestra Lorena Tah Mac</h2>
+        <p>Educación Inicial</p>
+  </div>
+
+    <div class="card">
+      <span class="card9"><span class="card81">
+      <span class="card13"><span class="card121"><span class="card1011"><img src="../fotos/24.jpg" alt="" >
+      <h2>Maestra Rosa María Quiau Aban</h2>
+        <p>Educación Inicial</p>
+  </div>
+
+</div>
+
+<footer>
+    Educando con amor y compromiso
+</footer>
+
+</body>
+</html>
